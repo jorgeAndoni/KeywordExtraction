@@ -1,4 +1,4 @@
-# KeywordExtraction
+# Keyword Extraction
 Keyword extraction of English texts using complex networks and word embeddings
 
 ## Datasets
