@@ -2,10 +2,20 @@
 Keyword extraction of English texts using complex networks and word embeddings
 
 ## Datasets
-aa
+I used publicly available datasets including the source texts and their gold-standard
+keywords defined by experts. The following datasets were chosen for their variability in size
+and sources. The _Hult-2003 dataset_ contains title, keywords, and abstracts from scientific papers
+published between 1998 and 2002. The documents were extracted from the Inspect
+Database of Physics and Engineering papers. This dataset contains 500 abstracts as
+well as the set of keywords that were assigned by human annotators. The _Marujo-2012 dataset_ comprises
+450 web news stories on subjects such as business, culture, sport, and technology. Finally, I also used the _Semeval-2010 dataset_. This dataset comprises scientific papers that were extracted from the ACM Digital Library. I considered the full content of 100 papers and their corresponding keywords assigned by both authors
+and readers.
+
+
 
 ## Methodology
-jjj
+
+<img src="ke_arquitecture.png" width="650" height="450">
 
 ## Main results
 aa
