@@ -12,6 +12,11 @@ well as the set of keywords that were assigned by human annotators. The _Marujo-
 and readers.
 
 
+Dataset | Description | D | W_avg | U_avg | S_avg | K_avg
+|---- | ---- | --- | --- | --- |--- |--- |
+| Hult-2003 | Paper abstracts | 500 | 123.12 | 73.25 | 5.14 | 18.83
+| Marujo-2012 | Web news stories | 450 | 452.36 | 223.33 | 20.74 | 52.79
+| SemEval-2010 | Full papers | 100 | 8168.49 |1387.47 |393.80 |23.34
 
 ## Methodology
 
