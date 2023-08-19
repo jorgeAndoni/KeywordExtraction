@@ -1,5 +1,6 @@
 # Keyword Extraction
-Keyword extraction of English texts using complex networks and word embeddings
+Keyword extraction of English texts using complex networks concepts and word embeddings. The keyword extraction task is an important NLP task in many text mining applications. Graph-based methods have been commonly used to automatically find the key concepts in texts, however, relevant information provided by embeddings has not been widely used to enrich the graph structure. Here I modeled texts co-occurrence networks, where nodes are words and edges are established either by contextual or semantical similarity. I compared two embedding approaches
+(Word2vec and BERT) to check whether edges created via word embeddings can improve the quality of the keyword extraction method.
 
 ## Datasets
 I used publicly available datasets including the source texts and their gold-standard
