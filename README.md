@@ -23,12 +23,11 @@ The framework proposed to detect keywords via word embeddings and graph modeling
 comprises the following four main steps: i) text pre-processing; ii) word vectorization; iii) network creation; and iv) word ranking and keyword extraction.
 - **Pre-processing**: This phase comprises the required steps to conveniently pre-process the datasets. This step encompasses sentence segmentation, stopword removal and text stemming.
 - **Word vectorization**: I considered the embeddings models to represent the words. The embeddings are important for identifying similar words that do not co-occur in the text.
-- **Network creation: We modeled the documents as word co-occurrence networks, where
-nodes represent words and edges are established based on the neighbors of each word.
-We also considered “virtual” edges, which were generated based on the similarity
-between two words. The similarity is computed based on the word vectorization. This
-is an essential step for capturing long-range, semantical relationships. In Section III C,
-we explain the adopted methodology for network creation.
+- **Network creation**: I modeled the documents as word co-occurrence networks, where nodes represent words and edges are established based on the neighbors of each word. I also considered “virtual” edges, which were generated based on the similarity between two words. The similarity is computed based on the word vectorization. This
+is an essential step for capturing long-range, semantical relationships.
+- **Keyword extraction**: I used several network centrality measurements to rank the words for each document. Such measurements are used to give an importance value or relevance weight to each node from the network. The top N ranked words were considered keywords.
+
+The workflow we considered for keyword extraction is shown in the following Figure:
 
  <img src="ke_arquitecture.png" width="650" height="450">
 
