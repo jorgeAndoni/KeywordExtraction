@@ -9,8 +9,8 @@ published between 1998 and 2002. The documents were extracted from the Inspect
 Database of Physics and Engineering papers. This dataset contains 500 abstracts as
 well as the set of keywords that were assigned by human annotators. The _Marujo-2012 dataset_ comprises
 450 web news stories on subjects such as business, culture, sport, and technology. Finally, I also used the _Semeval-2010 dataset_. This dataset comprises scientific papers that were extracted from the ACM Digital Library. I considered the full content of 100 papers and their corresponding keywords assigned by both authors
-and readers.
-
+and readers. In the following table, I show the statistical information from datasets for the keyword extraction task. _D_ represents the number of documents. I also show the average number of tokens (_W_),
+sentences (_S_) and vocabulary size (_U_). _K_ is the average number of reference keywords assigned per document.
 
 Dataset | Description | D | W_avg | U_avg | S_avg | K_avg
 |---- | ---- | --- | --- | --- |--- |--- |
