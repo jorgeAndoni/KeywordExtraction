@@ -33,7 +33,24 @@ The workflow we considered for keyword extraction is shown in the following Figu
  <img src="ke_arquitecture.png" width="650" height="450">
 
 ## Main results
-aa
+
+**Hult results:**
+
+<img src="ke_results.png" width="650" height="450">
+
+
+**Marujo results:**
+
+<img src="ke_results2.png" width="650" height="450">
+
+
+**SemEval results:**
+
+<img src="ke_results3.png" width="650" height="450">
+
+
+
+
 
 ## References
 [Using virtual edges to extract keywords from texts modeled as complex networks](https://arxiv.org/abs/2205.02172). JAV Tohalino, TC Silva, DR Amancio. arXiv preprint arXiv:2205.02172
