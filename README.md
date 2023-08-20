@@ -33,18 +33,19 @@ The workflow we considered for keyword extraction is shown in the following Figu
  <img src="ke_arquitecture.png" width="650" height="450">
 
 ## Main results
+In the following figures I show a comparison of the performance of each centrality measurement for the three datasets Hult-2003,  Marujo-2012, and SemEval-2010.  For all subplots except the Accessibility metric, the blue lines represent unweighted measurements, while the red lines are weighted measurements. In the case of the Accessibility centrality, the blue lines describe the A(1) metric and the red lines represent the A(2) metric. We also evaluated the window length (w = {1, 2, 3}) for the network creation step: dotted lines are used when the value w = 1 is established, while thicker lines represent values for larger values of w. The goal of these figures is to analyze if the performance is improved when we vary the model parameters. We are particularly interested in the performance analysis when varying both the window length (w) and the number of virtual edges (P).  We considered distinct model parameters, with the window length being represented by different curves and P represented on the x-axis. The effect of considering edge weights was also considered.  
 
-**Hult results:**
+**Hult-2003 performance analysis:**
 
 <img src="ke_results.png" width="650" height="450">
 
 
-**Marujo results:**
+**Marujo-2012 performance analysis:**
 
 <img src="ke_results2.png" width="650" height="450">
 
 
-**SemEval results:**
+**SemEval-2010 performance analysis**
 
 <img src="ke_results3.png" width="650" height="450">
 
